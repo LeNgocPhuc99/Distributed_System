@@ -14,7 +14,7 @@ public class Node {
 	public Node(int port, int ID) {
 		this.myPort = port;
 		this.myID = ID;
-		this.vc = new VectorClock(15, ID);
+		this.vc = new VectorClock(5, ID);
 	}
 
 	private void startClientComponet() {

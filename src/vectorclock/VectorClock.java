@@ -21,12 +21,12 @@ public class VectorClock implements Serializable {
 	}
 
 	synchronized public String toString() {
-		String vector = "";
+		String vector = "(";
 		for (int e : processVector) {
 			// System.out.print(e + "\t");
-			vector += e + "\t";
+			vector += e + ",";
 		}
-		vector += "\n";
+		vector += ")\n";
 		return vector;
 	}
 

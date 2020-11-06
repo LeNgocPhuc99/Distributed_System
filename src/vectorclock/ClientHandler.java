@@ -6,6 +6,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class ClientHandler implements Runnable {
+	public final static int OFFSET = 9990;
 	private VectorClock vc;
 
 	public ClientHandler(VectorClock vc) {
