@@ -13,7 +13,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-
+/src/lamportclock
+/src/vectorclock_3
 # External tool builders
 .externalToolBuilders/
 
