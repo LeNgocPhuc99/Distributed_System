@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class VectorClock implements Serializable {
 
 	/**
-	 * @author asura
+	 * @author LNP
 	 */
 	private static final long serialVersionUID = 1L;
 	private int processVector[];
