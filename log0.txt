@@ -1,0 +1,13 @@
+Process 0 readyProcess 1 readyProcess 2 readySending - Message: 3
+VPVector: []
+TimeStamp: [0, 1, 0]Sending - Message: 1
+VPVector: []
+TimeStamp: [1, 0, 0]Delivery - Message: 1
+VPVector: []
+TimeStamp: [1, 0, 0]Sending - Message: 2
+VPVector: [(1, [2, 0, 0])]
+TimeStamp: [2, 0, 0]Delivery - Message: 3
+VPVector: []
+TimeStamp: [0, 1, 0]Delivery - Message: 2
+VPVector: [(1, [2, 0, 0])]
+TimeStamp: [2, 0, 0]

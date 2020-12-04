@@ -11,7 +11,9 @@ public class RMIServer {
 	public static void main(String args[]) {
 
 		try {
+			// remote method
 			IAccount rAccount = new AccountService();
+
 			LocateRegistry.createRegistry(6789);
 
 			Naming.bind("rmi://127.0.0.1:6789/RMI", rAccount);

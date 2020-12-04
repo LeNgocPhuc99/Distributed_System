@@ -15,6 +15,7 @@ local.properties
 .recommenders
 /src/lamportclock
 /src/vectorclock_3
+/src/BSS
 # External tool builders
 .externalToolBuilders/
 
